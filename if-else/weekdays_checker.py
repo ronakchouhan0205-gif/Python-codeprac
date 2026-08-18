@@ -1,19 +1,19 @@
 def day_name(num):
     match num:
         case n if n == 1:
-            print("Monday")
+            return "Monday"
         case n if n == 2:
-            print("Tuesday")
+            return "Tuesday"
         case n if n == 3:
-            print("Wednesday")
+            return "Wednesday"
         case n if n == 4:
-            print("Thursday")
+            return "Thursday"
         case n if n == 5:
-            print("Friday")
+            return "Friday"
         case n if n == 6:
-            print("Satuday")
+            return "Satuday"
         case n if n == 7:
-            print("Sunday")
+            return "Sunday"
         case _:
-            print("Invalid day")
-print(day_name(4))
+            return "Invalid day"
+print(day_name(2))
