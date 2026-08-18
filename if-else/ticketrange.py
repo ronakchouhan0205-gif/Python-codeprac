@@ -1,5 +1,5 @@
 age=int(input("Enter your age: "))
-days=str(input("Enter the day of the week: "))
+days=input("Enter the day of the week: ")
 weekend=["saturday","sunday"]
 if(days in weekend):
     print("Your ticket price is $300")
