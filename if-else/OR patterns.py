@@ -5,5 +5,5 @@ def is_weekend(day):
         case "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday":
             return False
         case _:
-            return False
-print(is_weekend("Thursday"))
+            return None
+print(is_weekend("wednesday"))
