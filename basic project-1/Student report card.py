@@ -15,10 +15,7 @@ english_marks = input("Enter your English marks: ")
 english_marks = int(english_marks)
 
 total = maths_marks + science_marks + english_marks
-print("Total: ", total)
-
 average = total / 3
-print("Average: ", average)
 
 if average >=90:
     grade = "A+"
@@ -34,6 +31,7 @@ elif average >=40:
     remark = "Need improvement"
 else:
     grade = "Fail"
+    remark = "Try hard next time"
 
 print("-" * 60)
 print(f"{'Student Report Card':^50}")
@@ -48,7 +46,7 @@ print(f"{'Science':<15} {science_marks:>20}")
 print(f"{'English':<15} {english_marks:>20}")
 print("-" * 60)
 print(f"{'Total':<15} {total:>20}")
-print(f"{'Average':<15} {average:>20}")
+print(f"{'Average':<15} {average:>20.2f}")
 print(f"{'Grade':<15} {grade:>20}")
 print(f"{'Remark':<15} {remark:>20}")
 print("-" * 60)
