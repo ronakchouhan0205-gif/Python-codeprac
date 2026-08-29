@@ -1,7 +1,7 @@
-name = input("Enter your name: ")
+name = input("Enter student name: ")
 name = name.strip().title()
 
-roll_number = input("Enter your roll number: ")
+roll_number = input("Enter roll number: ")
 roll_number = roll_number.strip().upper()
 
 
