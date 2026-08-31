@@ -1,10 +1,11 @@
+# get students details
 name = input("Enter student name: ")
 name = name.strip().title()
 
 roll_number = input("Enter roll number: ")
 roll_number = roll_number.strip().upper()
 
-
+# get marks for subject
 maths_marks = input("Enter your Maths marks: ")
 maths_marks = int(maths_marks)
 
@@ -14,9 +15,11 @@ science_marks = int(science_marks)
 english_marks = input("Enter your English marks: ")
 english_marks = int(english_marks)
 
+# total marks for each subject
 total = maths_marks + science_marks + english_marks
 average = total / 3
 
+#conditions 
 if average >=90:
     grade = "A+"
     remark = "Outstanding"
@@ -32,7 +35,7 @@ elif average >=40:
 else:
     grade = "Fail"
     remark = "Try hard next time"
-
+# print report card display
 print("-" * 60)
 print(f"{'Student Report Card':^50}")
 print("-" * 60)
